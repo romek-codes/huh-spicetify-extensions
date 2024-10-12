@@ -1591,7 +1591,7 @@ body.video-full-screen.video-full-screen--hide-ui {
             setTimeout(autoHideLyrics, 100);
         } else {
             // @ts-ignore
-            if (document.querySelector("#fad-lyrics-plus-container").innerText == "(• _ • )") {
+            if (document.querySelector("#fad-lyrics-plus-container").innerText == "") {
                 isHidden = true;
                 updateStyle();
             }
